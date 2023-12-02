@@ -1,0 +1,30 @@
+.margin {
+  margin-top: 10px;
+}
+.margin h4 {
+  text-align: left;
+}
+
+.displayNote {
+  margin-top: 20px;
+  display: flex;
+  width: 90%;
+  overflow-x: hidden;
+  gap: 5px;
+}
+.displayNote .data {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+  overflow-x: auto;
+}
+.displayNote .data .title {
+  font-size: 25px;
+  color: rgb(0, 62, 128);
+  margin-bottom: 10px;
+}/*# sourceMappingURL=displaynote.css.map */

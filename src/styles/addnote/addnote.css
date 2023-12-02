@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  outline: none;
+}
+
+.addnote {
+  margin-top: 50px;
+  width: 1050px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0.5px 2px 20px grey;
+  border-radius: 10px;
+  padding: 50px 0px 0px 50px;
+}
+.addnote h1 {
+  color: #6477a1;
+  font-weight: 600;
+  font-size: 32px;
+}
+.addnote form {
+  margin-top: 30px;
+  position: relative;
+}
+.addnote form input {
+  border: none;
+  outline: none;
+  font-weight: 300px;
+}
+.addnote form #title_container input {
+  font-size: 32px;
+  color: #6477a1;
+}
+.addnote form #title_container ::-moz-placeholder {
+  color: #6477a1;
+}
+.addnote form #title_container ::placeholder {
+  color: #6477a1;
+}
+.addnote form #content_container {
+  margin-top: 30px;
+}
+.addnote form #content_container textarea {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  resize: none;
+  color: gray;
+  width: 600px;
+  height: 120px;
+}
+.addnote form #content_container ::-moz-placeholder {
+  color: gray;
+}
+.addnote form #content_container ::placeholder {
+  color: gray;
+}
+.addnote form button {
+  margin-top: 10px;
+  position: absolute;
+  right: 50px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: rgb(130, 130, 245);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 40px;
+  color: lavender;
+}/*# sourceMappingURL=addnote.css.map */

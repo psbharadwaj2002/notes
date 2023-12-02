@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sidebar {
+  margin-top: 50px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sidebar h1 {
+  color: #203562;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.sidebar button {
+  color: white;
+  background-color: #203562;
+  border: none;
+  height: 50px;
+  width: 300px;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.sidebar button img {
+  margin-right: 10px;
+}/*# sourceMappingURL=sidebar.css.map */
